@@ -28,7 +28,7 @@
 - php artisan migrate ( create database table use this command )
 - php artisan db:seed ( create HR and EMPLOYEE role wise fake data in user table also create user default leave on user total leave table ) 
 
-# Install the dependencies:
+# Other Information:
 - i was face issues on multiple condition apply on casual and paid leave apply
 - approximately 12 to 13 hours
 - when i apply leave on friday and monday in one leave request that time leave has been counted include saturday and sunday; so that situcation count 4 leave instaed     of 2
