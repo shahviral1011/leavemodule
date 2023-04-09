@@ -21,7 +21,6 @@
 
 ## How to Install and Run the Project
 - first, clone the project on your editor useing ( https://github.com/shahviral1011/leavemodule.git )
-- 
 # Install the dependencies:
 - install composer ( install all dependencies )
 - npm install
