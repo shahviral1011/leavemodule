@@ -7,12 +7,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+#### 𝙈𝙮 𝙏𝙚𝙘𝙝 𝙎𝙩𝙖𝙘𝙠
+
+| 𝗛𝗧𝗠𝗟5  | 𝗖𝗦𝗦3 | 𝗦𝗮𝘀𝘀/𝗦𝗖𝗦𝗦 | 𝗕𝗢𝗢𝗦𝗧𝗥𝗔𝗣  | 𝗻𝗽𝗺 | 𝗝𝗔𝗩𝗔𝗦𝗖𝗥𝗜𝗣𝗧 |
+| ------------- | ------------- |------------- | ------------- |------------- | ------------- |------------- |
+| <img height="30px" src="https://cdn.svgporn.com/logos/html-5.svg">  | <img height="35px" src="https://cdn.svgporn.com/logos/css-3.svg"> |  <img height="30px" src="https://cdn.svgporn.com/logos/sass.svg"> |  <img height="30px" src="https://cdn.svgporn.com/logos/bootstrap.svg"> | <img height="30px" src="https://cdn.svgporn.com/logos/npm.svg"> | <img height="30px" src="https://cdn.svgporn.com/logos/javascript.svg"> |
+
+#### 𝘾𝙤𝙙𝙞𝙣𝙜 𝙩𝙤𝙤𝙡𝙨 𝙄 𝙪𝙨𝙚
+
+| 𝗚𝗜𝗧  | 𝗩𝗦 𝗖𝗼𝗱𝗲  | 𝗧𝗘𝗥𝗠𝗜𝗡𝗔𝗟 | 
+| ------------- | ------------- |------------- | ------------- |
+| <img height="30px" src="https://cdn.svgporn.com/logos/git-icon.svg">  | <img height="30px" src="https://cdn.svgporn.com/logos/visual-studio-code.svg"> |  <img height="30px" src="https://cdn.svgporn.com/logos/terminal.svg"> |
+
 ## How to Install and Run the Project
 - first, clone the project on your editor useing ( https://github.com/shahviral1011/leavemodule.git )
+- 
+# Install the dependencies:
 - install composer ( install all dependencies )
+- npm install
+- npm run dev
 - php artisan migrate ( create database table use this command )
 - php artisan db:seed ( create HR and EMPLOYEE role wise fake data in user table also create user default leave on user total leave table ) 
 
+# Install the dependencies:
+- i was face issues on multiple condition apply on casual and paid leave apply
+- approximately 12 to 13 hours
+- when i apply leave on friday and monday in one leave request that time leave has been counted include saturday and sunday; so that situcation count 4 leave instaed     of 2
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
